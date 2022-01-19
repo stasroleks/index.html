@@ -3,7 +3,7 @@
 document.addEventListener('DOMContenLoaded',function () {
     const form = document.getElementById('form');
     form.addEventListener('submit,formSend');
-
+});
     async function formSend(e) {
         e.preventDefault();
 
@@ -25,7 +25,8 @@ document.addEventListener('DOMContenLoaded',function () {
             formAddError(input);
             error++;
             }
-        }else if(input.getAttribute("type") === "checbox" && input.checked === false) {
+        }
+        if(input.getAttribute("type") === "checbox" && input.checked === false) {
         formAddError(input);
         error++;
         }else{
@@ -35,13 +36,13 @@ document.addEventListener('DOMContenLoaded',function () {
             }
         }
     }
-    function formAddError(input) {
-        input.parentElement.classList.add('_error');
-        input.classList.add('_error');
-    }
-    function formRemoveError(input) {
-        input.parentElement.classList.remove('_error');
-        input.classList.remove('_error');
+function formAddError(input) {
+    input.parentElement.classList.add('_error');
+    input.classList.add('_error');
+}
+function formRemoveError(input) {
+    input.parentElement.classList.remove('_error');
+    input.classList.remove('_error');
 }
 function emailTest(input){
     return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
