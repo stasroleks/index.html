@@ -12,7 +12,7 @@ $mail->IsHTML(true);
 
 
 
-$mail->setFrom('info@fls.guru');
+$mail->setFrom('stasgro908@gmail.com');
 $mail->addAddress('stasgro908@gmail.com');
 $mall->Subject = 'Привет! это "Фрилансер по жизни"';
 
