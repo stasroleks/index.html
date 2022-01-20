@@ -31,7 +31,6 @@
 	<div> 
         <nav> 
 	<ul>
-
 <ul class="menu cf">
   <li><a href="#">Home</a></li>
   <li>
@@ -112,31 +111,41 @@
 <a href="youtube.html">Посмотреть список</a>
 <hr>
 <h2>Связаться со мной</h2>
-<form action="/">
-<div class="form">
-<div class="form__item">
-<label for="formName" class="form__label">Имя*</label>
-<input id="formName" type="text"name"name" class="form__input _req">
-</div>
-<div class="form__item">
-	<label for="formEmail" class="form__label">E-mail*</label>
-    <input id="formName" type="text"email"name" class="form__input _req _email">
-</div>
-<div class="form__item">
-<label for="formMessage" class="form__label">Сообщение</label>
-<textarea name="message" id="formMessage" class="form__input"></textarea>
-</div>
-<div class="form__item">
-<div>
-    </div>
-	</div>
-	<button type="submit" class="form__button">Отправить</button>
 
-</form>
-        </div>
-		<script src="js/script.js"></script>
-     </div> 
-  </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+	<div class="row">
+	  <div style="height: 100px;"></div>
+	  <form action="email.php" method="get">
+		<div class="input-group mb-3">
+		  <input name="username" type="text" class="form-control" placeholder="Username" aria-label="Username">
+		  <span class="input-group-text">@</span>
+		  <input name="server" type="text" class="form-control" placeholder="Server" aria-label="Server">
+		</div>
+		
+		<div class="input-group">
+		  <span class="input-group-text">Сообщение</span>
+		  <textarea name="message" class="form-control" aria-label="Сообщение"></textarea>
+		</div>
+		<button type="submit" class="btn btn-primary">Отправить</button>
+	  </form>
+	</div>
+  </div>
+<script>
+
+</script>
 </div>
 
 </body>

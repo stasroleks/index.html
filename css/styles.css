@@ -33,13 +33,6 @@ nav ul li:hover ul {
 }
 
 
-
-
-
-
-
-
-
 .divTable{
 	display:table;
 	width: 85%;
@@ -94,17 +87,17 @@ a:active {
 	display: table-header-group;*/
 }
 .divTableCell, .divTableHead {
-	border: 2px solid #999999;
+	border: 2px solid #cacaca;
 	display: table-cell;
 	padding: 50px 180px;
 }
 .divTableHeading {
-	background-color: #EEE;	
+	background-color: rgba(180, 50, 50, 0.925);	
 	display: table-header-group;
 	font-weight: bold;*/
 }
 .divTableFoot {
-	background-color: #EEE;
+	background-color: rgb(226, 241, 7);
 	display: table-footer-group;
 	font-weight: bold;
 }
@@ -115,14 +108,14 @@ a:active {
 .card {
 	padding: 2
 	margin-right 0 30;
-	background: #ffebcd;
+	background: #f1f12c;
 }
 	
 .left-menu {
 width:  100%
 }
 .content{
-	background: white;
+	background: rgb(255, 255, 255);
 }
 .row {
 	width:  100%
@@ -136,8 +129,8 @@ width:  100%
 {box-sizing: border-box; margin: 0;}
 .widget {
   padding: 20px;
-  border: 5px solid #f1f1f1;
-  background: #fff;
+  border: 5px solid #ffffff;
+  background: rgb(250, 179, 244);
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
 }
@@ -155,7 +148,7 @@ width:  100%
   width: 250px;
 }
 .widget li {
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #df5757;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
@@ -166,7 +159,7 @@ width:  100%
 }
 .widget a {
   text-decoration: none;
-  color:  #616a6b;
+  color:  #f03a3a;
   display: inline-block;
 }
 .widget li:before {
@@ -184,25 +177,6 @@ width:  100%
 .widget li:nth-child(6):before {content:"\f03d";}
 .widget li:nth-child(7):before {content:"\f03d";}
 .widget li:nth-child(8):before {content:"\f03d";}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .form {
 	max-width: 550px;
